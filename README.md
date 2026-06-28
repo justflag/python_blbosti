@@ -1,2 +1,2 @@
 # python_blbosti
-## sbirka jednoduchych programu/skriptu
+sbirka jednoduchych programu/skriptu
