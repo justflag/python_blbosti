@@ -1,6 +1,8 @@
 class Car:
+
+    #wheels = 4, class variable
     def __init__(self, model, year, color, for_sale): #contructor, self means "this object"
-        self.model = model
+        self.model = model #instance variable
         self.year = year
         self.color = color
         self.for_sale = for_sale
