@@ -1,6 +1,6 @@
 # function = block of reusable code
 # place () after the function name to invoke it
-
+# # 1. POSITIONAL  2. default 3. keyword 4 arbitrary
 def happy_birthday(name, age):
     print(f"Happy birthday to {name}!")
     print(f"You are {age} old!")

@@ -30,16 +30,16 @@ print(math.e ** c)
 print(math.e ** d)
 print(math.e ** e)
 
-import example
-result1 = example.pi
-result2 = example.square(3)
-result3 = example.cube(3)
-result4 = example.circumference(3)
-result5 = example.area(3)
+import modules_example
+result1 = modules_example.pi
+result2 = modules_example.square(3)
+result3 = modules_example.cube(3)
+result4 = modules_example.circumference(3)
+result5 = modules_example.area(3)
 print(result1)
 print(result2)
 print(result3)
 print(result4)
 print(result5)
 
-#print(help(example))
+#print(help(modules_example))
