@@ -7,16 +7,16 @@ class Book:
         self.title = title
         self.author = author
         self.num_pages = num_pages
-    def __str__(self):
+    def __str__(self): #string
         return f"'{self.title}' by {self.author}"
     
-    def __eq__(self, other):
+    def __eq__(self, other): #equal
         return self.title == other.title and self.author == other.author
     
-    def __lt__(self, other):
+    def __lt__(self, other): #less than
         return self.num_pages < other.num_pages
     
-    def __gt__(self, other):
+    def __gt__(self, other): #greater than
         return self.num_pages > other.num_pages
     
     def __add__(self,other):
