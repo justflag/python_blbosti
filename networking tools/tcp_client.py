@@ -11,4 +11,3 @@ client.connect((target_host,target_port))
 client.send(b"GET / HTTP/1.1 Host: google.com")
 response = client.recv(4096)
 client.close()
-
