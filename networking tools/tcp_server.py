@@ -11,7 +11,7 @@ def main():
     print(f'[*] Listening on {ip}:{port}')
     while True:
         client, address = server.accept()
-        print(f'[*] Accepted connection from {address[0]:address[1]}')
+        print(f'[*] Accepted connection from {address[0]}:{address[1]}')
         client_handler = threading.Thread(target=handle_client, args=(client,))
         client_handler.start()
 
